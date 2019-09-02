@@ -1,3 +1,7 @@
-.h1 {
+header {
     color: aqua;
+}
+
+h1 {
+    display: flex;
 }
