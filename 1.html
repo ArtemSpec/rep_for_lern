@@ -1,0 +1,77 @@
+<!-- <script>
+let schedule = {};
+
+function isEmpty(schedule) {
+for (var key in schedule) {
+
+        return false;
+}
+return true;
+}
+
+alert(isEmpty(schedule))
+
+schedule = {["8:30"] : "get up"};
+
+alert(isEmpty(schedule))
+
+document.write(Object.keys(schedule)); // true
+
+</script> -->
+
+<script>
+    let menu = {
+        width: 200,
+        height: 300,
+        title: "My Menu"
+    };
+
+    function multiplyNumeric(menu) {
+        /* for (var key in obj) {
+            if (typeof obj[key] == "number") { */
+        for (var key in menu) {
+            if (isNaN(menu[key])) continue;
+                menu[key] *= 2;
+        
+    }
+    return alert(menu);
+}
+    
+
+
+
+
+
+
+
+</script>
+
+
+<script>
+
+    let s = {
+        John: 100,
+        Ann: 160,
+        loh: "dasd",
+        Pete: 130
+    }
+
+    let sum = 0;
+
+    function showSum(obj) {
+
+        for (let key in obj) {
+
+            if (typeof obj[key] == "number") {
+                obj[key] *= 2;
+            }
+
+        }
+
+        return alert(sum);
+
+    }
+
+    showSum(s);
+
+</script>
